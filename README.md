@@ -12,10 +12,13 @@ To ensure that I followed best practices, I adhered to the principles of Test-Dr
 
 For simplicity, this application is composed of a single class `Account` with 4 methods: 
 
-- Constructor: handles balance starting at 0 and an empty array for transactions.
-- Deposit: handles deposits being made to the account and adds it to the balance.
-- Withdraw: handles withdrawals being made from the account and is reflected in the total balance
-- Statement: Prints a statement with an initial header consisting of 'date', 'credit', 'debit' and 'balance' and each transaction added bellow the header satisfying each element.
+- `constructor`: handles balance starting at 0 and an empty array for transactions.
+
+- `deposit`: handles deposits being made to the account and adds it to the balance.
+
+- `withdraw`: handles withdrawals being made from the account and is reflected in the total balance.
+
+- `statement`: Prints a statement with an initial header consisting of 'date', 'credit', 'debit' and 'balance' and each transaction added bellow the header satisfying each element.
 
 
 ## Installation
